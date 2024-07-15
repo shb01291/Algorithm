@@ -1,0 +1,98 @@
+﻿  Player.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2676: 이항 '<': 'const _Ty'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(158,17): message : 'bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)'일 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)': 'const _Ty'에서 'const std::queue<_Ty,_Container> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(158): message : 'std::operator <' 선언을 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)': 'const _Ty'에서 'const std::deque<_Ty,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)': 'const _Ty'에서 'const std::multimap<_Kty,_Ty,_Pr,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)': 'const _Ty'에서 'const std::map<_Kty,_Ty,_Pr,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::tuple<_Types...> &,const std::tuple<_Types...> &)': 'const _Ty'에서 'const std::tuple<_Types...> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': 'const _Ty'에서 'const std::vector<_Ty,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)': 'const _Ty'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)': 'const _Ty'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'const _Ty'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept': 'const _Ty'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept': 'const _Ty'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept': 'const _Ty'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': 'const _Ty'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': 'const _Ty'에서 'const _Elem *const '에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': 'const _Ty'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &)': 'const _Ty'에서 'const std::move_iterator<_Iter> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &)': 'const _Ty'에서 'const std::reverse_iterator<_BidIt> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef(117,1): error C2784: 'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)': 'const _Ty'에서 'const std::pair<_Ty1,_Ty2> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+          with
+          [
+              _Ty=Pos
+          ]
